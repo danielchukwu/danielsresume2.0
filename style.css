@@ -12,6 +12,10 @@ body {
    --bargrey: #cccccc;
 }
 
+a {
+   text-decoration-color: #1a1a1a;
+}
+
 li {
    padding: 3px 0;
 }
@@ -64,7 +68,7 @@ li {
 
 
 .wrapper {
-   padding: 6rem 6rem;
+   padding: 0rem 6rem 6rem;
    width: 100%;
    background-color: #fff;
    box-sizing: border-box;
@@ -73,9 +77,12 @@ li {
 .main-1 {
    display: flex;
    align-items: center;
+   background-color: #1a1a1a;
+   /* max-width: 1300px; */
 }
 
 .img-holder {
+   margin-left: 95px;
    min-width: 300px;
    max-width: 300px;
    border-radius: 50%;
@@ -91,12 +98,19 @@ li {
 .m-who {
    padding-left: 4.6rem;
 }
+.m-who-padding {
+   padding: 7rem 5.5rem;
+}
 
 .name{
    font-size: 5rem;
    font-weight: 600;
    line-height: 1.1;
-   color: var(--themeblue);
+   color:#fff;
+}
+
+.name-sub {
+   color: #fff;
 }
 .role {
    font-size: 1.3rem;
@@ -109,7 +123,7 @@ li {
    font-weight: 600;
    text-transform: capitalize;
    line-height: 1.25;
-   color: var(--themeblue);
+   color: #1a1a1a;
 }
 .role-subb {
    font-size: 1rem;
@@ -186,7 +200,7 @@ li {
 .blue-circle {
    padding: 5px;
    border-radius: 50%;
-   background-color: #0773e8;
+   background-color: #1a1a1a;
    z-index: 2;
    border: 3px solid #fff;
 }
@@ -241,6 +255,10 @@ li {
 }
 
 .socials {
-   color: var(--themeblue);
+   color: #1a1a1a;
    font-size: 20px;
+}
+
+.main-1 {
+   background-color: ;
 }
